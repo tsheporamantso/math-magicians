@@ -92,7 +92,7 @@ This is a online App for all fans of mathematics.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo]()
+- [Live Demo](https://tsheporamantso.github.io/math-magicians/public)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,70 +106,48 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- Visual Studio Code.
-- Node JS.
-- Git bash.
-- GitHub Account.
-
-Example command:
-
-```sh
- gem node js
-```
+- Node.js in your computer
+- IDE(e.g.: Vscode,...)
+- Terminal
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-Use git clone command or download ZIP folder
-
-Example commands:
+Clone this repository to your desired folder by running the following commands in your terminal:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:tsheporamantso/math-magicians.git
+  cd your-prefered-folder-name
+
+  git clone https://github.com/tsheporamantso/math-magicians.git
 ```
 
 ### Install
 
-Install this project with:
-
-npm
-
-Example command:
+- Install this project with:
 
 ```sh
-  cd my-project
-  npx create-react-app
+  cd math-magicians
+
+  npm install or npm i
+```
+
+- Run an optimized build for prodction:
+
+```
+  npm run build
 ```
 
 ### Usage
 
 To run the project, execute the following command:
 
-npm start or live server
-
-Example command:
-
 ```sh
-  GitHub Pages Server
+  npm start
+
 ```
 
 ### Run tests
 
 To run tests, run the following command:
-
-npm test
-
-Example command:
-
-```sh
-  npx stylelint "**/*.{css,scss}"
-```
-
-```sh
-  npx eslint "**/*.{js,jsx}"
-```
 
 ```sh
   npm test
@@ -181,10 +159,8 @@ You can deploy this project using:
 
 GitHub Pages
 
-Example:
-
 ```sh
-https://tsheporamantso.github.io//
+https://tsheporamantso.github.io/math-magicians/public
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
