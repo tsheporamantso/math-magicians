@@ -1,4 +1,3 @@
-
 <a name="readme-top"></a>
 
 <div align="center">
@@ -37,7 +36,7 @@
 
 # 📖 Math Magicians <a name="about-project"></a>
 
-This is a online for all fans of mathematics.    
+This is a online App for all fans of mathematics.
 
 **Math Magicians** In this project, I built a Single Page App (SPA) that allows users to make simple calculations and raed a random math-related qoute.
 
@@ -46,8 +45,8 @@ This is a online for all fans of mathematics.
 - React
 - CSS
 - JavaScript(ES6)
--JSX
--Jest
+  -JSX
+  -Jest
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -93,7 +92,7 @@ This is a online for all fans of mathematics.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo]( )
+- [Live Demo]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,20 +111,17 @@ In order to run this project you need:
 - Git bash.
 - GitHub Account.
 
-
 Example command:
 
 ```sh
  gem node js
 ```
 
-
 ### Setup
 
 Clone this repository to your desired folder:
 
-Use git clone command or download ZIP folder 
-
+Use git clone command or download ZIP folder
 
 Example commands:
 
@@ -133,7 +129,6 @@ Example commands:
   cd my-folder
   git clone git@github.com:tsheporamantso/math-magicians.git
 ```
-
 
 ### Install
 
@@ -145,7 +140,7 @@ Example command:
 
 ```sh
   cd my-project
-  npx create-react-app 
+  npx create-react-app
 ```
 
 ### Usage
@@ -154,13 +149,11 @@ To run the project, execute the following command:
 
 npm start or live server
 
-
 Example command:
 
 ```sh
   GitHub Pages Server
 ```
-
 
 ### Run tests
 
@@ -168,36 +161,35 @@ To run tests, run the following command:
 
 npm test
 
-
 Example command:
 
 ```sh
   npx stylelint "**/*.{css,scss}"
 ```
+
 ```sh
   npx eslint "**/*.{js,jsx}"
 ```
+
 ```sh
-  npm start 
-```
-```sh
-  npm run dev 
+  npm start
 ```
 
+```sh
+  npm run dev
+```
 
 ### Deployment
 
 You can deploy this project using:
 
-GitHub Pages 
+GitHub Pages
 
-
-Example: 
+Example:
 
 ```sh
 https://tsheporamantso.github.io//
 ```
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,7 +215,6 @@ https://tsheporamantso.github.io//
 - [ ] **Full website**
 - [ ] **Test**
 - [ ] **Deploy**
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -260,7 +251,3 @@ I would like to thank Microverse for this exercise.
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
