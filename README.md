@@ -38,15 +38,15 @@
 
 This is a online App for all fans of mathematics.
 
-**Math Magicians** In this project, I built a Single Page App (SPA) that allows users to make simple calculations and raed a random math-related qoute.
+**Math Magicians** In this project, I built a Single Page App (SPA) that allows users to make simple calculations and read a random math-related qoute.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 - React
 - CSS
 - JavaScript(ES6)
-  -JSX
-  -Jest
+- JSX
+- Jest
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -74,7 +74,7 @@ This is a online App for all fans of mathematics.
 <details>
   <summary>React</summary>
   <ul>
-    <li><a href="https://create-react-app.dev/">React</a></li>
+    <li><a href="https://create-react-app.dev/">React js</a></li>
   </ul>
 </details>
 
@@ -172,11 +172,7 @@ Example command:
 ```
 
 ```sh
-  npm start
-```
-
-```sh
-  npm run dev
+  npm test
 ```
 
 ### Deployment
