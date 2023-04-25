@@ -5,14 +5,13 @@
   margin: 100px auto;
   width: 300px;
   padding: 2rem;
-  /* border: 0.5px solid rgb(215, 207, 207); */
 }
 
 .child__result {
   display: flex;
-  color: #fff;
-  justify-content: end;
+  justify-content: flex-end;
   background-color: rgba(150, 150, 150);
+  color: #fff;
   width: 300px;
   height: 50px;
 }
