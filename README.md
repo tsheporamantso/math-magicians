@@ -92,7 +92,7 @@ This is a online App for all fans of mathematics.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](tgrmathmagicians.netlify.app)
+- [Live Demo](https://tgrmathmagicians.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
