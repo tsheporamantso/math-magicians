@@ -28,15 +28,12 @@
   height: 50px;
 }
 
-.button_operator {
+.button_operator,
+.equal {
   background-color: #ff8000;
   width: 75px;
 }
 
 .zero {
   width: 150px;
-}
-
-.equal {
-  width: 75px;
 }
