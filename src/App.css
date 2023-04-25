@@ -23,14 +23,19 @@
 
 .button_key {
   background-color: rgb(215, 215, 215);
-  color: rgb(20, 19, 19);
   width: 75px;
   height: 50px;
+  border: none;
+  border-right: 1px solid #d1cfcf;
+  border-top: 1px solid #d1cfcf;
 }
 
 .button_operator,
 .equal {
   background-color: #ff8000;
+  border: none;
+  border-right: 1px solid #d1cfcf;
+  border-top: 1px solid #d1cfcf;
   width: 75px;
 }
 
