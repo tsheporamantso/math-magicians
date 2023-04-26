@@ -1,39 +1,51 @@
-import React from 'react';
-import ChildResult from './ChildResult';
+import React, { useState } from 'react';
+import calculate from '../logic/calculate';
 import '../App.css';
 
 function Calculator() {
+  const [state, setState] = useState({ total: 0, next: null, operation: null });
+
+  const { total, next, operation } = state;
+
+  const calculateResult = (calculateButton) => {
+    setState((state) => calculate(state, calculateButton.target.textContent));
+  };
+
   return (
     <div className="container">
-      <ChildResult />
-      <div className="child__container">
-        <button type="button" className="button_key">AC</button>
-        <button type="button" className="button_key">+/-</button>
-        <button type="button" className="button_key">%</button>
-        <button type="button" className="button_operator">÷</button>
+      <div className="child__result">
+        {total}
+        {next}
+        {operation}
       </div>
       <div className="child__container">
-        <button type="button" className="button_key">7</button>
-        <button type="button" className="button_key">8</button>
-        <button type="button" className="button_key">9</button>
-        <button type="button" className="button_operator">x</button>
+        <button type="button" className="button_key" onClick={calculateResult}>AC</button>
+        <button type="button" className="button_key" onClick={calculateResult}>+/-</button>
+        <button type="button" className="button_key" onClick={calculateResult}>%</button>
+        <button type="button" className="button_operator" onClick={calculateResult}>÷</button>
       </div>
       <div className="child__container">
-        <button type="button" className="button_key">4</button>
-        <button type="button" className="button_key">5</button>
-        <button type="button" className="button_key">6</button>
-        <button type="button" className="button_operator">-</button>
+        <button type="button" className="button_key" onClick={calculateResult}>7</button>
+        <button type="button" className="button_key" onClick={calculateResult}>8</button>
+        <button type="button" className="button_key" onClick={calculateResult}>9</button>
+        <button type="button" className="button_operator" onClick={calculateResult}>x</button>
       </div>
       <div className="child__container">
-        <button type="button" className="button_key">1</button>
-        <button type="button" className="button_key">2</button>
-        <button type="button" className="button_key">3</button>
-        <button type="button" className="button_operator">+</button>
+        <button type="button" className="button_key" onClick={calculateResult}>4</button>
+        <button type="button" className="button_key" onClick={calculateResult}>5</button>
+        <button type="button" className="button_key" onClick={calculateResult}>6</button>
+        <button type="button" className="button_operator" onClick={calculateResult}>-</button>
       </div>
       <div className="child__container">
-        <button type="button" className="button_key zero">0</button>
-        <button type="button" className="button_key">.</button>
-        <button type="button" className="button_key equal">=</button>
+        <button type="button" className="button_key" onClick={calculateResult}>1</button>
+        <button type="button" className="button_key" onClick={calculateResult}>2</button>
+        <button type="button" className="button_key" onClick={calculateResult}>3</button>
+        <button type="button" className="button_operator" onClick={calculateResult}>+</button>
+      </div>
+      <div className="child__container">
+        <button type="button" className="button_key zero" onClick={calculateResult}>0</button>
+        <button type="button" className="button_key" onClick={calculateResult}>.</button>
+        <button type="button" className="button_key equal" onClick={calculateResult}>=</button>
       </div>
     </div>
   );
