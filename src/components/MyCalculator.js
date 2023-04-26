@@ -15,8 +15,8 @@ function Calculator() {
     <div className="container">
       <div className="child__result">
         {total}
-        {next}
         {operation}
+        {next}
       </div>
       <div className="child__container">
         <button type="button" className="button_key" onClick={calculateResult}>AC</button>
