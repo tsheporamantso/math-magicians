@@ -17,7 +17,7 @@ function Navigation() {
           </Link>
         </li>
         <li id="quotelink">
-          <Link to="/qoute" className="links">
+          <Link to="quote" className="links">
             Quote
           </Link>
         </li>
