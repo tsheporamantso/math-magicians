@@ -1,10 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+
+.App {
+  width: 80vw;
+  margin: 30px auto;
+}
+
+.calc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calc h2 {
+  padding-left: 15px;
+  font-size: xx-large;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 100px auto;
-  width: 300px;
-  padding: 2rem;
 }
 
 .child__result {
@@ -41,4 +57,33 @@
 
 .zero {
   width: 150px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+h1,
+p {
+  padding-left: 15px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 20px;
+  width: 80%;
+}
+
+.nav-items li {
+  border: none;
+  border-right: 1px solid;
+  padding: 10px;
+}
+
+#quotelink {
+  border: none;
 }

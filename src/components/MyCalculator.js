@@ -12,6 +12,7 @@ function Calculator() {
   };
 
   return (
+
     <div className="container">
       <div className="child__result">
         {total}
@@ -48,6 +49,7 @@ function Calculator() {
         <button type="button" className="button_key equal" onClick={calculateResult}>=</button>
       </div>
     </div>
+
   );
 }
 
