@@ -42,3 +42,27 @@
 .zero {
   width: 150px;
 }
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 20px;
+  width: 80%;
+}
+
+.nav-items li {
+  border: none;
+  border-right: 1px solid;
+  padding: 10px;
+}
+
+#quotelink {
+  border: none;
+}
