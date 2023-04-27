@@ -16,8 +16,8 @@ function Navigation() {
             Calculator
           </Link>
         </li>
-        <li>
-          <Link to="qoute" className="links">
+        <li id="quotelink">
+          <Link to="/qoute" className="links">
             Quote
           </Link>
         </li>
