@@ -2,22 +2,25 @@ body {
   font-family: sans-serif;
 }
 
-/* .header-container {
-  margin-left: 15px;
+.App {
+  width: 80vw;
+  margin: 30px auto;
 }
 
-.wrapper {
+.calc {
   display: flex;
   justify-content: space-between;
-} */
+}
+
+.calc h2 {
+  padding-left: 15px;
+  font-size: xx-large;
+}
 
 .container {
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* border: 1px solid rgba(150, 150, 150); */
-  margin: 100px auto;
-  /* padding: 50px; */
 }
 
 .child__result {
