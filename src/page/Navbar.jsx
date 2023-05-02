@@ -1,4 +1,4 @@
-import '../App.css';
+import '../styles/App.scss';
 import { Link } from 'react-router-dom';
 
 function Navigation() {
@@ -16,7 +16,7 @@ function Navigation() {
             Calculator
           </Link>
         </li>
-        <li id="quotelink">
+        <li id="quotelink" style={{ border: 'none' }}>
           <Link to="quote" className="links">
             Quote
           </Link>

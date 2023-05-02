@@ -82,17 +82,9 @@ This is a online App for all fans of mathematics.
 
 ### Key Features <a name="key-features"></a>
 
-- **Mathematic calculations**
-- **React**
-- **Jest test**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo](https://tgrmathmagicians.netlify.app/)
+- **Home Page**
+- **Calculator Page**
+- **Motivational Quote**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,20 +145,6 @@ To run tests, run the following command:
   npm test
 ```
 
-### Deployment
-
-You can deploy this project using:
-
-GitHub Pages
-
-```sh
-https://tsheporamantso.github.io/math-magicians/public
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Gladwin Tshepo Ramantso**
@@ -181,10 +159,6 @@ https://tsheporamantso.github.io/math-magicians/public
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Components**
-- [ ] **Events**
-- [ ] **Fetch data from API**
-- [ ] **Full website**
 - [ ] **Test**
 - [ ] **Deploy**
 

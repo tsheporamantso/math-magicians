@@ -1,14 +1,19 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import Home from './components/Home';
-import Navigation from './components/Navbar';
-import Quote from './components/Quote';
+import './styles/App.scss';
+import Home from './page/Home';
+import Navigation from './page/Navbar';
+import Quote from './page/Quote';
 import CalcText from './page/CalcText';
 
 function App() {
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{
+        height: '80vh', width: '80vw', margin: '30px auto', backgroundColor: '#ffffff',
+      }}
+    >
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
