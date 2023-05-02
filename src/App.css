@@ -2,15 +2,15 @@ body {
   font-family: sans-serif;
 }
 
-.calc {
+/* .calc {
   display: flex;
   justify-content: space-between;
-}
+} */
 
-.calc h2 {
+/* .calc h2 {
   padding-left: 15px;
   font-size: xx-large;
-}
+} */
 
 .container {
   display: flex;
