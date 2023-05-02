@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './components/Home';
-import Navigation from './components/Navbar';
-import Quote from './components/Quote';
+import Home from './page/Home';
+import Navigation from './page/Navbar';
+import Quote from './page/Quote';
 import CalcText from './page/CalcText';
 
 function App() {
