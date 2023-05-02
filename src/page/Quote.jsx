@@ -41,7 +41,7 @@ const Quote = () => {
     );
   }
 
-  return <p>{quote}</p>;
+  return <p style={{ fontStyle: 'italic' }}>{quote}</p>;
 };
 
 export default Quote;
