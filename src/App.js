@@ -8,7 +8,7 @@ import CalcText from './page/CalcText';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ width: '80vw', margin: '30px auto' }}>
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -2,11 +2,6 @@ body {
   font-family: sans-serif;
 }
 
-.App {
-  width: 80vw;
-  margin: 30px auto;
-}
-
 .calc {
   display: flex;
   justify-content: space-between;
