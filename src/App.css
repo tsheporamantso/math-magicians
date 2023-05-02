@@ -2,16 +2,6 @@ body {
   font-family: sans-serif;
 }
 
-/* .calc {
-  display: flex;
-  justify-content: space-between;
-} */
-
-/* .calc h2 {
-  padding-left: 15px;
-  font-size: xx-large;
-} */
-
 .container {
   display: flex;
   flex-direction: column;
@@ -59,11 +49,6 @@ body {
   align-items: center;
 }
 
-h1,
-p {
-  padding-left: 15px;
-}
-
 .nav-items {
   display: flex;
   align-items: center;
@@ -77,8 +62,4 @@ p {
   border: none;
   border-right: 1px solid;
   padding: 10px;
-}
-
-#quotelink {
-  border: none;
 }

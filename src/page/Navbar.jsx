@@ -16,7 +16,7 @@ function Navigation() {
             Calculator
           </Link>
         </li>
-        <li id="quotelink">
+        <li id="quotelink" style={{ border: 'none' }}>
           <Link to="quote" className="links">
             Quote
           </Link>
