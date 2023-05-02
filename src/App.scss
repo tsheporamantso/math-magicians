@@ -1,5 +1,13 @@
-body {
-  font-family: sans-serif;
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  body {
+    font-family: sans-serif;
+  }
 }
 
 .container {
@@ -47,19 +55,19 @@ body {
 .nav {
   display: flex;
   align-items: center;
-}
 
-.nav-items {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  list-style: none;
-  gap: 20px;
-  width: 80%;
-}
+  .nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+    width: 80%;
 
-.nav-items li {
-  border: none;
-  border-right: 1px solid;
-  padding: 10px;
+    li {
+      border: none;
+      border-right: 1px solid;
+      padding: 10px;
+    }
+  }
 }
