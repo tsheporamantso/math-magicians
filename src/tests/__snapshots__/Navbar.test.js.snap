@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation should match Navbar snapshot 1`] = `
+Array [
+  <nav
+    className="nav"
+  >
+    <h1>
+       Math Magicians
+    </h1>
+    <ul
+      className="nav-items"
+    >
+      <li>
+        <a
+          className="links"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          className="links"
+          href="/container"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li
+        id="quotelink"
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+      >
+        <a
+          className="links"
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>,
+  ",",
+]
+`;
