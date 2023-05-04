@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
 const Quote = () => {
   const [quote, setQuote] = useState('');
@@ -9,7 +8,7 @@ const Quote = () => {
   useEffect(() => {
     const fetchQuote = async () => {
       try {
-        const response = await axios.get(
+        const response = await fetch(
           'https://api.api-ninjas.com/v1/quotes?category=happiness',
           {
             headers: {
@@ -17,7 +16,8 @@ const Quote = () => {
             },
           },
         );
-        setQuote(response.data[0].quote);
+        const result = await response.json();
+        setQuote(result.data[0].quote);
         setLoading(false);
       } catch (error) {
         setLoading(false);

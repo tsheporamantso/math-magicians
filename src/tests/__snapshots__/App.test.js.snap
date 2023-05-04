@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should match App snapshot 1`] = `
+<div
+  className="App"
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "height": "80vh",
+      "margin": "30px auto",
+      "width": "80vw",
+    }
+  }
+>
+  <nav
+    className="nav"
+  >
+    <h1>
+       Math Magicians
+    </h1>
+    <ul
+      className="nav-items"
+    >
+      <li>
+        <a
+          className="links"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          className="links"
+          href="/container"
+          onClick={[Function]}
+        >
+          Calculator
+        </a>
+      </li>
+      <li
+        id="quotelink"
+        style={
+          Object {
+            "border": "none",
+          }
+        }
+      >
+        <a
+          className="links"
+          href="/quote"
+          onClick={[Function]}
+        >
+          Quote
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="home-page"
+  >
+    <h1>
+      Welcome to our page!
+    </h1>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam quis ipsa repellat natus incidunt exercitationem nobis quo labore aspernatur. Consectetur voluptatibus consequatur veniam eaque deserunt, similique magnam libero dolorem!
+    </p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ipsam quis ipsa repellat natus incidunt exercitationem nobis quo labore aspernatur. Consectetur voluptatibus consequatur veniam eaque deserunt, similique magnam libero dolorem!
+    </p>
+  </div>
+</div>
+`;

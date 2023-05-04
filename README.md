@@ -4,7 +4,7 @@
 
   <h1>Gladwin Tshepo Ramantso<h1>
   <br/>
-  
+
   <h3><b>Math Magicians</b></h3>
 
 </div>
@@ -152,6 +152,12 @@ To run tests, run the following command:
 - GitHub: [@tsheporamantso](https://github.com/tsheporamantso)
 - Twitter: [@ramgt001](https://twitter.com/ramgt001)
 - LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
+
+👤 **Fatihah Omolayo Oduwole**
+
+- GitHub: [jedda](https://github.com/jeddaa)
+- Twitter: [@\_jeddaah](https://twitter.com/_jeddaah)
+- LinkedIn: [Fatihah Oduwole](https://linkedin.com/in/fatihahoduwole)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

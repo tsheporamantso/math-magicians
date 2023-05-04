@@ -23,7 +23,7 @@ function Calculator() {
 
   return (
     <div className="container">
-      <div className="child__result">
+      <div className="child__result" data-testid="calculator-display">
         {total}
         {operation}
         {next}
