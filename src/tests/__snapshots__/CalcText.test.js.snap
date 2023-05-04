@@ -19,6 +19,7 @@ Object {
         >
           <div
             class="child__result"
+            data-testid="calculator-display"
           >
             0
           </div>
@@ -180,6 +181,7 @@ Object {
       >
         <div
           class="child__result"
+          data-testid="calculator-display"
         >
           0
         </div>
